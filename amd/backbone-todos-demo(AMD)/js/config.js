@@ -1,9 +1,9 @@
 require.config({
   baseUrl: 'js/',
-  // deps:['main'],
+  deps:['main'],
   paths: {
     
-    "base": "../bower_components/todomvc-common/base",
+    // "base": "../bower_components/todomvc-common/base",
     "jquery": "../bower_components/jquery/jquery",
     "underscore": "../bower_components/underscore/underscore",
     "backbone": "../bower_components/backbone/backbone",

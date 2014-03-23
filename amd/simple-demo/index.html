@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8">
+  <meta name="description" content="Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="./">
+  <title>no-module Test</title>
+  <link rel="shortcut icon" href="" />
+  <script type="text/javascript" src="asset/js/data/dataModA.js" ></script> 
+  <script type="text/javascript" src="asset/js/data/dataModB.js" ></script> 
+  <script type="text/javascript" src="asset/js/data/dataModC.js" ></script> 
+  <script type="text/javascript" src="asset/js/data/dataModAll.js" ></script> 
+
+  <script type="text/javascript" src="asset/js/ui/uiModA.js" ></script> 
+  <script type="text/javascript" src="asset/js/ui/uiModAB.js" ></script> 
+  <script type="text/javascript" src="asset/js/ui/uiModABC.js" ></script> 
+</head>
+<body>
+  <div class="mod-a"></div>
+  <div class="mod-abc"></div>
+</body>
+<script type="text/javascript">
+  uiModA.render();
+  uiModABC.render();
+</script>
+</html>
